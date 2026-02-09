@@ -11,7 +11,7 @@ export const sendEmail = async (message) => {
     },
     tls: {
       rejectUnauthorized: false,
-    }
+    },
   });
 
   await transporter.sendMail({
