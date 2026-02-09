@@ -4,6 +4,8 @@ import express from "express";
 import cors from "cors";
 import enquiryRoutes from "./routes/enquiry.routes.js";
 const app = express();
+console.log("SMTP USER: ", process.env.SMTP_USER);
+console.log("TO EMAIL: ", process.env.OWNER_EMAIL);
 
 app.use(cors({
   origin: "*",
