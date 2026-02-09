@@ -1,6 +1,6 @@
 import { sendEmail } from "../services/email.service.js";
 import { generateWhatsAppLink } from "../services/whatsapp.service.js";
-import { formatMessage } from "../utils/messageFormatter.js";
+import { formatMessage } from "../utils/messageformatter.js";
 
 export const sendEnquiry = async (req, res) => {
   try {
